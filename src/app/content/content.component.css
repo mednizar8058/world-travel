@@ -1,0 +1,61 @@
+.welcome{
+    margin-bottom: 100px;
+    height: 600px;
+    background-image: url('../../assets/travel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome h3{
+    background-color: cadetblue;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.welcome h1{
+    font-size: 250%;
+}
+
+.services{
+    margin: 50px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.services p{
+    width: 300px;
+}
+
+.services div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    margin: 50px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.about p{
+    width: 300px;
+    margin-right: 20px;
+}
+
+video{
+    max-width: 500px;
+    border-radius: 20px;
+    margin-left: 20px;
+    box-shadow: cornflowerblue;
+}
