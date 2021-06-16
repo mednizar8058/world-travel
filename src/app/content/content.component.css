@@ -22,6 +22,7 @@
 }
 
 .services{
+    max-width: 800px;
     margin: 50px auto;
     display: flex;
     flex-flow: row wrap;
@@ -40,17 +41,17 @@
 }
 
 .about{
+    max-width: 100%;
     margin: 50px auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
 
 }
 
 .about p{
-    width: 300px;
-    margin-right: 20px;
+    width: 600px;
 }
 
 video{
