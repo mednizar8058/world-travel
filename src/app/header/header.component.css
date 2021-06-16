@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../../assets/fonts/Roboto-Regular.ttf);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
 
 nav{
     background-color: cadetblue;
@@ -10,11 +19,11 @@ nav{
 
 .nav-item{
     list-style: none;
-    margin-right: 8em;
+    margin-right: 5em;
 }
 
 .nav-list{
-    padding: 5px;
+    padding: 2px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,6 +34,10 @@ nav{
 .nav-item a{
     text-decoration: none;
     color: black;
+}
+
+.nav-item a:hover{
+    color: white;
 }
 
 .nav-item:first-child{
