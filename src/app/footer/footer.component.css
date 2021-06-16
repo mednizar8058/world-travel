@@ -1,0 +1,15 @@
+footer{
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkcyan;
+}
+
+
+
+img{
+    width: 40px;
+    height: 40px;
+}
