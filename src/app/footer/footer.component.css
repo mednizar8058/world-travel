@@ -1,10 +1,17 @@
 footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding: 12px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: darkcyan;
+}
+
+footer div{
+    margin-right: 20px ;
 }
 
 
