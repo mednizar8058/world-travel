@@ -1,0 +1,23 @@
+.register-card{
+    margin: 150px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+input{
+    margin: 5px;
+    border-radius: 12px;
+    padding: 7px;
+    width: 50%;
+}
+
+input:nth-child(7){
+    width: 25%;
+    background-color: rgb(105, 169, 172);
+    color: white;
+}
