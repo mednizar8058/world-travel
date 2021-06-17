@@ -4,6 +4,8 @@ nav{
     width: 100%;
     position: fixed;
     min-width: 800px;
+    height: 80px;
+    top: 0;
 
 }
 

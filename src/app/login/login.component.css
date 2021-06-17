@@ -1,0 +1,21 @@
+.login-card{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+input{
+    margin: 5px;
+    border-radius: 12px;
+    padding: 5px;
+    width: 50%;
+}
+
+input:nth-child(4){
+    width: 25%;
+    background-color: rgb(105, 169, 172);
+    color: white;
+}
