@@ -9,6 +9,14 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
+import { RouterModule } from '@angular/router';
+
+const appRoutes = [
+  {path : 'login', component : LoginComponent},
+  {path : 'registration', component : RegisterComponent},
+  {path : 'profile', component : ProfileComponent},
+  {path : '', component : ContentComponent}// this path is for the default page :)
+];
 
 @NgModule({
   declarations: [
@@ -22,7 +30,8 @@ import { RegisterComponent } from './register/register.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]

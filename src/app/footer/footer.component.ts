@@ -7,6 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  lastRefresh = new Promise(
+    (resolve,reject) =>{
+      const date = new Date();
+      setTimeout(
+        () => {
+        resolve(date);
+      }, 2000);
+    }
+  );
+
   constructor() { }
 
   ngOnInit(): void {

@@ -21,3 +21,10 @@ input:nth-child(4){
     background-color: rgb(105, 169, 172);
     color: white;
 }
+
+a{
+    color: black;
+    margin: 7px;
+    font-size: 12px;
+
+}
