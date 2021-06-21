@@ -15,6 +15,7 @@ nav{
 .nav-item{
     list-style: none;
     margin-right: 5em;
+    
 }
 
 .nav-list{
@@ -30,10 +31,17 @@ nav{
 .nav-item a{
     text-decoration: none;
     color: black;
+    transition: .5s;
 }
 
 .nav-item a:hover{
     color: white;
+    border-bottom: 10px solid rgb(193, 228, 179);  
+}
+
+.nav-item a:visited{
+    border-bottom: 10px solid rgb(193, 228, 179);  
+
 }
 
 .nav-item:first-child{
