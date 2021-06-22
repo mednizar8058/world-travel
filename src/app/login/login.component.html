@@ -1,8 +1,9 @@
-<div class="login-card">
+<form class="login-card" (ngSubmit)="loginUser(myform)" #myform="ngForm">
     <h2>Login</h2>
-    <input type="email" placeholder="Email">
-    <input type="password" name="password" id="password" placeholder="Password">
-    <input type="submit">
+    <input ngModel name="email" type="email" placeholder="Email" required>
+    <input ngModel name="password" type="password" placeholder="Password" required>
+    <input type="submit" name="something" value="Log me in">
     <hr>
     <a routerLink="/registration">You're not a member? Sign up!</a>
-</div>
+    
+</form>

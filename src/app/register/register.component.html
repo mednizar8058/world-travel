@@ -1,10 +1,11 @@
-<div class="register-card">
+<form class="register-form" (ngSubmit)="registerUser(myform)" #myform="ngForm">
     <h2>Register</h2>
-    <input type="text" placeholder="First name">
-    <input type="text" placeholder="Last name">
-    <input type="email" placeholder="Email">
-    <input type="password" name="password" id="password" placeholder="Password">
-    <input type="password" name="password" id="conf-password" placeholder="Confirm Password">
-    
-    <input type="submit">
-</div>
+   
+        <input ngModel name="fname" type="text" placeholder="First name" required>
+        <input ngModel name="lname" type="text" placeholder="Last name" required>
+        <input ngModel name="email" type="email" placeholder="Email" required>
+        <input ngModel name="password" type="password" name="password" id="password" placeholder="Password" required>
+        <input type="password" name="password" placeholder="Confirm Password" required>
+        
+        <input type="submit" name="something" value="Sign me in">
+</form>

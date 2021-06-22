@@ -76,6 +76,9 @@ h1{
     margin: 10px auto;
     border-radius: 20px;
 }
+.services div:hover{
+    transform: translateY(5px);
+}
 
 .about{
     max-width: 100%;
