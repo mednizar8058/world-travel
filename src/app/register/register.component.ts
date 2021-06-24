@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 import { AuthService } from '../service/auth.service';
+
 
 @Component({
   selector: 'app-register',
@@ -10,7 +12,7 @@ import { AuthService } from '../service/auth.service';
 export class RegisterComponent implements OnInit {
 
 
-  constructor(private authService:AuthService) { }
+  constructor(private authService:AuthService,private route:Router) { }
 
   ngOnInit(): void {
   }
@@ -23,6 +25,7 @@ export class RegisterComponent implements OnInit {
     );
 
     alert("your account is ready")
+    this.route.navigate(['']);
   }
 
 }
