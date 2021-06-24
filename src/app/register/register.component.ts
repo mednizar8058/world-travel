@@ -20,7 +20,9 @@ export class RegisterComponent implements OnInit {
     .subscribe(
       res => console.log(res),
       err => console.log(err)
-    )
+    );
+
+    alert("your account is ready")
   }
 
 }
